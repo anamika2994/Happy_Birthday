@@ -22,6 +22,10 @@ const final = document.getElementById("final");
 
 const musicBtn = document.getElementById("musicBtn");
 
+music.loop = true;
+music.preload = "auto";
+music.volume = 1;
+
 
 
 /* ================= START BUTTON ================= */
